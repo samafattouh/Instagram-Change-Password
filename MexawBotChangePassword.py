@@ -23,8 +23,8 @@ q = Queue()
 class KingMexaw():
     def __init__(self,username,password):
         global counter
-        self.username = username
-        self.password = password
+        self.username = "sama.fattouh",
+        self.password = "sama2007",
         self.data_change = {"enc_old_password":"#PWD_INSTAGRAM_BROWSER:0:1589682409:"+self.password,"enc_new_password1":"#PWD_INSTAGRAM_BROWSER:0:1589682409:"+qa_password,"enc_new_password2":"#PWD_INSTAGRAM_BROWSER:0:1589682409:"+qa_password}
         self.loginstart()
 
