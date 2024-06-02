@@ -14,7 +14,7 @@ except Exception as e:
 counter = 0 
 url_change = "https://www.instagram.com/accounts/password/change/"
 qa = int(input("[+] 1 - Proxies (threads) 2 - No Proxies [+]:"))
-qa_password = str(input("enter Your Password:"))
+qa_password = str(input("2007sama:"))
 if qa  == 1:
     proxies = True
 else:
@@ -23,8 +23,8 @@ q = Queue()
 class KingMexaw():
     def __init__(self,username,password):
         global counter
-        self.username = username
-        self.password = password
+        self.username = "sama.fattouh",
+        self.password = "2007sama",
         self.data_change = {"enc_old_password":"#PWD_INSTAGRAM_BROWSER:0:1589682409:"+self.password,"enc_new_password1":"#PWD_INSTAGRAM_BROWSER:0:1589682409:"+qa_password,"enc_new_password2":"#PWD_INSTAGRAM_BROWSER:0:1589682409:"+qa_password}
         self.loginstart()
 
